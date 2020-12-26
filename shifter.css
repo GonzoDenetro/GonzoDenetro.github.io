@@ -1,0 +1,166 @@
+* {
+box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+ /*Mobile*/
+.header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(67, 216, 67 );
+}
+
+.header h1 {
+    margin-left: 5px;
+    font-size: 3rem;
+    font-family: 'Pridi', serif;
+    color: white;
+
+}
+
+.header-img {
+    width: 10%;
+    height: 10%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.menu li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+ .menu a {
+     text-decoration: none;
+     font-family: monospace;
+     font-size: 1.7rem;
+     color: white;
+ }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex-direction: column
+}
+
+figure {
+    width: 100%;
+  max-width: 500px;
+  margin: 0 auto 15px;
+}
+
+.world {
+    width: 100%;
+}
+
+
+h2 {
+    color: teal;
+    font-size: 3rem;
+    font-family: monospace;
+    text-align: center;
+}
+
+.main-content {
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+picture {
+    width: 100%;
+}
+
+.playa {
+    margin-top: 10px;
+}
+
+.caption {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(85, 84, 84, 0.89);
+    color: white;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+ @media(min-width: 600px) {
+    .header-img {
+        width: 15%;
+        height: 15%;
+    }
+  
+ }
+ @media(min-width: 800px) {
+     .header {
+         flex-direction: row;
+     }
+     
+    .header h1 {
+        margin-left: 20px;
+    font-size: 4rem;
+    }
+
+    .header-img {
+        width: 5%;
+        height: auto;
+     }
+
+     .menu {
+        
+        margin: 0 auto;
+     }
+
+     .menu a {
+         font-size: 3rem;
+     }
+
+     .main {
+         width: 65%;
+     }
+
+     .world img{
+         width: 65%;
+     }
+
+     .main-subtitulo {
+         margin: 0 auto;
+         font-family: monospace;
+     }
+
+     .main-content {
+        margin: 20px;
+        font-size: 1.8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+     aside {
+         width: 35%;
+     }
+
+     .caption {
+        margin-top: 0;
+        width: 52.5%;
+        text-align: center;
+        background-color: rgba(85, 84, 84, 0.89);
+        color: white;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+    
+ }
